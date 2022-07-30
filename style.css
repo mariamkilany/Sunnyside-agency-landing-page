@@ -1,0 +1,440 @@
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-size: 18px;
+        font-family: 'Barlow', sans-serif;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        background-color: hsl(200deg 100% 62%);
+        padding: 30px;
+        align-items: center;
+    }
+    .list {
+        list-style: none;
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
+    ul li {
+        cursor: pointer;
+    }
+    .section1 {
+        background-image: url(images/desktop/image-header.jpg);
+        height: 80vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        background-position-y: bottom;
+        background-position-x: center;
+        font-size: xxx-large;
+        font-family: 'Fraunces', serif;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        padding-top: 60px;
+        position: relative;
+    }
+    .section1 div {
+        margin-bottom: 65px;
+    }
+    .section2 {
+        height: 90vh;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+    .content {
+        width: 50%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading {
+        color: hsl(212, 27%, 19%);
+        font-family: 'Fraunces';
+        font-size: xx-large;
+        width: 50%;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+    .prg {
+        color: hsl(210, 4%, 67%);
+        line-height: 30px;
+        margin-bottom: 15px;
+        width: 50%;
+    }
+    .learn {
+        color: hsl(212, 27%, 19%);
+        font-family: 'Fraunces';
+        text-transform: uppercase;
+        position: relative;
+        cursor: pointer;
+        z-index: 10;
+    }
+    .pic {
+        background-image: url("images/desktop/image-transform.jpg");
+        width: 50%;
+        background-position: center;
+    }
+    .section3 {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 90vh;
+    }
+    .section3 .pic {
+        background-image: url(images/desktop/image-stand-out.jpg);
+    }
+    .section4 {
+        display: flex;
+        height: 90vh;
+    }
+    .content1 {
+        background-image: url("images/desktop/image-graphic-design.jpg");
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 2%;
+    }
+    .content2 {
+        background-image: url("images/desktop/image-photography.jpg");
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 2%;
+    }
+    .content1 .prg,
+    .content2 .prg {
+        color: hsl(213, 9%, 39%);
+        width: 60%;
+    }
+    .openion {
+        display: flex;
+        height: 80%;
+    }
+    .propic0 {
+        background-image: url("images/image-emily.jpg");
+    }
+    .propic1 {
+        background-image: url("images/image-thomas.jpg");
+    }
+    .propic2 {
+        background-image: url("images/image-jennie.jpg");
+    }
+    .pro {
+        width: 65px;
+        height: 65px;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .above {
+        color: hsl(213, 9%, 39%);
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        word-spacing: 1pc;
+        font-family: 'Fraunces';
+    }
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .profile .prg {
+        width: 65%;
+    }
+
+    .section5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90vh;
+        justify-content: space-evenly;
+        padding-top: 60px;
+    }
+
+    .headname {
+        color: hsl(212, 27%, 19%);
+        font-family: 'Fraunces';
+    }
+
+    .name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work {
+        color: hsl(213deg 6% 86%);
+        font-size: small;
+    }
+
+    .back1 {
+        background-image: url("images/desktop/image-gallery-milkbottles.jpg");
+    }
+
+    .back2 {
+        background-image: url("images/desktop/image-gallery-orange.jpg");
+    }
+
+    .back3 {
+        background-image: url("images/desktop/image-gallery-cone.jpg");
+    }
+
+    .back4 {
+        background-image: url("images/desktop/image-gallery-sugarcubes.jpg");
+    }
+
+    .section6 {
+        display: flex;
+        height: 60vh;
+    }
+
+    .gal {
+        width: 25%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .talier {
+        background-color: hsl(167deg 44% 70%);
+    }
+
+    .logo path {
+        fill: #2c7566;
+    }
+
+    .talier div div {
+        display: flex;
+        justify-content: center;
+        height: 20%;
+    }
+
+    .talier div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        justify-content: center;
+    }
+
+    .talier {
+        padding: 2pc;
+        display: flex;
+        justify-content: center;
+    }
+
+    .learn::after {
+        content: "";
+        width: 140px;
+        height: 9px;
+        position: absolute;
+        background-color: #ffd1015c;
+        left: -6px;
+        top: 18px;
+        border-radius: 9px;
+        cursor: pointer;
+    }
+
+    .tw::after {
+        content: "";
+        width: 140px;
+        height: 9px;
+        position: absolute;
+        background-color: #fd786796;
+        left: -6px;
+        top: 18px;
+        border-radius: 9px;
+        cursor: pointer;
+    }
+
+    .actv li {
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .actv li:hover {
+        font-family: 'Fraunces' !important;
+        background-color: #ffffff80 !important;
+        border-radius: 30px !important;
+    }
+
+    .learn:hover:after {
+        background-color: #ffcf00;
+    }
+
+    .tw:hover:after {
+        background-color: #fd7867;
+    }
+
+    .talier ul {
+        color: #2c7566;
+        cursor: pointer;
+    }
+
+    .talier li:hover {
+        color: white;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    @media(max-width: 660px) {
+        .actv {
+            display: none;
+        }
+
+        .header .menu {
+            display: block;
+        }
+
+        .section2,
+        .section3,
+        .section4,
+        .section5 {
+            height: fit-content;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .pic {
+            width: 100%;
+            height: 80vh;
+        }
+
+        .content,
+        .content1,
+        .content2 {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .heading {
+            text-align: center;
+        }
+
+        .section1 {
+            background-image: url("images/mobile/image-header.jpg");
+        }
+
+        .section2 {
+            background-image: url("images/mobile/image-transform.jpg");
+        }
+
+        .section3 {
+            background-image: url("images/mobile/image-stand-out.jpg");
+        }
+
+        .section4 .content2 {
+            background-image: url("images/mobile/image-photography.jpg");
+        }
+
+        .section4 .content1 {
+            background-image: url("images/mobile/image-graphic-design.jpg");
+        }
+
+        .content1,
+        .content2 {
+            height: 80vh;
+            background-size: cover;
+        }
+
+        .section4,
+        .section5 {
+            flex-direction: column;
+        }
+
+        .section5 {
+            padding-top: 30px
+        }
+
+        .openion {
+            flex-direction: column;
+        }
+
+        .profile {
+            padding: 10px
+        }
+
+        .section6 {
+            flex-wrap: wrap;
+        }
+
+        .gal {
+            width: 50%;
+        }
+
+        .talier ul {
+            width: 100% !important;
+        }
+
+        .talier li {
+            padding-left: 15px;
+        }
+
+        .talier ul {
+            padding: 0;
+        }
+
+        .list {
+            justify-content: center;
+        }
+
+        .actv li {
+            width: 50%;
+        }
+
+        .actv li:hover {
+            font-family: 'Fraunces' !important;
+            background-color: hsl(51deg 100% 49% / 58%) !important;
+            border-radius: 30px !important;
+        }
+
+        .actv {
+            color: hsl(232, 10%, 55%) !important;
+        }
+
+        .mnu {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            background-color: white;
+            color: hsl(232, 10%, 55%) !important;
+            top: 80px;
+            left: 45%;
+            z-index: 10;
+            width: 50%;
+            text-align: center;
+            padding: 0;
+            height: 30vh;
+            align-items: center;
+        }
+
+        .mnu::after {
+            position: absolute;
+            content: "";
+            background-color: white;
+            top: -29px;
+            right: 0px;
+            border: 15px solid white;
+            border-left: solid 15px #3dbeff;
+            border-top: solid 15px #3dbeff;
+        }
+    }
